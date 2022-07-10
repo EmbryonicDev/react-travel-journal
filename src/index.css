@@ -3,7 +3,15 @@ body {
   font-family: Inter;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #header {
+  width: 100%;
+  margin-bottom: 42px;
   display: flex;
   background: #F55A5A;
   height: 55px;
@@ -12,4 +20,64 @@ body {
   gap: 7px;
   color: #FFFFFF;
   font-weight: 500;
+}
+
+.destination {
+  display: flex;
+  gap: 19px;
+  width: 470px;
+  height: 168px;
+}
+
+.locationImg {
+  height: 168px;
+  width: 125px;
+  border-radius: 5px;
+}
+
+.entryText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.locationWrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 10.24px;
+  height: 12.4px;
+  margin-bottom: 4px;
+}
+
+a {
+  color: #918E9B;
+}
+
+.iconAndText {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  font-weight: 700px;
+  line-height: 30px;
+  font-size: 25px;
+}
+
+.dates {
+  margin: 0;
+  font-size: 10.24px;
+}
+
+.description {
+  margin-top: 9px;
+  font-size: 10.24px;
+}
+
+hr {
+  width: 470px;
+  margin: 18px 0;
 }
